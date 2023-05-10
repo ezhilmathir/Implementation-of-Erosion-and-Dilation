@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img1=np.zeros((100,660),dtype='uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(img1,'AADHEESHWAR.A',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'ezhil',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img1,'gray')
 plt.axis('off')
 
